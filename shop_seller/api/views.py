@@ -1,4 +1,6 @@
 import requests
+from posts.models import Trashed
+from django.contrib.auth.decorators import login_required
 
 
 def get_a_seat(shrt, long):
