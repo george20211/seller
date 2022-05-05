@@ -1,0 +1,11 @@
+
+<script type="text/javascript">
+  navigator.geolocation.getCurrentPosition(showPosition); // Запрашиваем местоположение, и в случае успеха вызываем функцию showPosition
+  function showPosition(position) {
+    /* Выводим координаты */
+    document.write("Широта: " + position.coords.latitude + "<br />");
+    document.write("Долгота: " + position.coords.longitude);
+  }
+</script>
+
+https://www.youtube.com/watch?v=2uFJ43DvhHg - локация
